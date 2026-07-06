@@ -75,13 +75,13 @@ My mission is to help organizations protect their critical assets, reduce cybers
 # 📫 Contact
 
 LinkedIn:
-(Your LinkedIn URL)
+https://www.linkedin.com/in/luis-toro-74a66694/
 
 GitHub:
 https://github.com/LuisToro06
 
 Email:
-(Your professional email)
+luis.german.toro@correounivalle.edu.co
 
 ---
 
