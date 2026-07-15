@@ -81,7 +81,7 @@ GitHub:
 https://github.com/LuisToro06
 
 Email:
-luis.german.toro@correounivalle.edu.co
+luis.toro.cyber@gmail.com
 
 ---
 
