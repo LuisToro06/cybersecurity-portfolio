@@ -1,88 +1,173 @@
-# 👋 Welcome to my Cybersecurity Portfolio
+# 🔐 Luis Germán Toro Pareja | Cybersecurity Portfolio
 
-Hello! I'm **Luis Germán Toro Pareja**, a Cybersecurity Specialist, Researcher, and University Professor passionate about helping organizations strengthen their cybersecurity posture through technical solutions, research, and education.
+Welcome to my Cybersecurity Portfolio.
 
-This repository showcases my hands-on cybersecurity projects, research initiatives, Blue Team exercises, vulnerability assessments, cloud security implementations, and security awareness materials developed throughout my professional journey.
+I am a Systems Engineer with dual Master's degrees in Information Security (UNIR – Spain and Mexico), specializing in cybersecurity, application security, vulnerability assessment, risk management, applied research, and higher education.
 
----
-
-# 🎯 Professional Mission
-
-My mission is to help organizations protect their critical assets, reduce cybersecurity risks, and strengthen business resilience through proactive security strategies, technical analysis, and cybersecurity education.
+This repository documents practical cybersecurity laboratories, technical assessments, research projects, and educational resources developed in authorized environments for learning, research, and professional development.
 
 ---
 
-# 🔐 Areas of Expertise
+# 👨‍💻 Professional Profile
 
-- Cybersecurity
-- Blue Team Operations
+My professional experience combines cybersecurity, higher education, and applied research.
+
+Throughout my academic and professional career, I have:
+
+- Designed and implemented approximately 20 hands-on cybersecurity laboratories.
+- Trained approximately 2,000 university students in Information Technology and Cybersecurity.
+- Delivered cybersecurity training to more than 30 professionals through continuing education programs.
+- Participated in applied research focused on information security and secure software development.
+- Developed practical learning environments using industry-recognized cybersecurity tools.
+
+---
+
+# 🛡 Technical Areas
+
+## Cybersecurity
+
+- Application Security
 - Vulnerability Assessment
-- Ethical Hacking
+- Web Application Security
+- Network Security
 - Security Awareness
 - Risk Management
-- Cloud Security
+- Secure Software Development (Secure SDLC)
+- Digital Forensics
+- OWASP Top 10
 - ISO/IEC 27001
 - NIST Cybersecurity Framework
-- Active Directory Security
-- AWS Security
-- Digital Forensics (Learning)
-- Security Research
 
 ---
 
-# 🧪 Portfolio Sections
+# 🛠 Security Tools
 
-📁 Blue Team
+## Operating Systems
 
-📁 Vulnerability Assessment
+- Kali Linux
+- Windows
+- Windows Server
+- Linux
 
-📁 Active Directory
+## Security Tools
 
-📁 AWS Security
-
-📁 Wazuh SIEM
-
-📁 pfSense
-
-📁 TryHackMe
-
-📁 OWASP Projects
-
-📁 Security Dashboards
-
-📁 Security Awareness
-
-📁 Research Projects
+- Nmap
+- Wireshark
+- Burp Suite
+- OWASP ZAP
+- OpenVAS
+- Gobuster
+- SQLMap
+- Nikto
+- Autopsy
+- Wazuh
+- pfSense
+- BitLocker
 
 ---
 
-# 📚 Current Goals
+# 🧪 Laboratory Environment
 
-✔ Build practical cybersecurity labs
+All practical exercises are developed in isolated and authorized virtual environments.
 
-✔ Share technical knowledge
+Current laboratory infrastructure includes:
 
-✔ Publish cybersecurity research
+- VirtualBox
+- Kali Linux
+- Metasploitable 2
+- Metasploitable 3 (Ubuntu)
+- Metasploitable 3 (Windows Server)
+- DVWA (Damn Vulnerable Web Application)
+- OWASP Juice Shop
+- Windows 10 / Windows 11
 
-✔ Develop Blue Team skills
+All activities are performed exclusively for educational, research, and professional development purposes.
 
-✔ Improve Cloud Security expertise
+---
 
-✔ Help organizations strengthen their cybersecurity posture
+# 📂 Portfolio Structure
+
+| Section | Description | Status |
+|----------|-------------|--------|
+| 01 - Lab Environment | Laboratory configuration and setup | 🚧 |
+| 02 - Reconnaissance | Host discovery and network scanning | 🚧 |
+| 03 - Enumeration | Service and resource enumeration | 🚧 |
+| 04 - Vulnerability Assessment | Vulnerability identification and analysis | 🚧 |
+| 05 - Web Application Security | Security testing of web applications | 🚧 |
+| 06 - Blue Team | Detection, monitoring and defensive security | 🚧 |
+| 07 - Active Directory Security | Windows Server security laboratories | 🚧 |
+| 08 - Cloud Security | AWS and cloud security laboratories | 🚧 |
+| 09 - Security Awareness | Awareness and cybersecurity education | 🚧 |
+| 10 - Research | Scientific publications and applied research | ✅ |
+
+---
+
+# 📖 Featured Scientific Publication
+
+**Implementation of a Roadmap for Securing Information in Online Application Development**
+
+Research areas:
+
+- Secure Software Development
+- Information Security
+- Cybersecurity Governance
+- Risk Management
+
+---
+
+# 🎯 Portfolio Objectives
+
+The purpose of this repository is to:
+
+- Document practical cybersecurity laboratories.
+- Demonstrate technical competencies through hands-on exercises.
+- Share knowledge with students and cybersecurity professionals.
+- Promote secure software development best practices.
+- Improve vulnerability assessment and risk analysis skills.
+- Continuously expand technical knowledge through practical projects.
+
+---
+
+# 🚀 Current Learning Roadmap
+
+I am currently expanding my knowledge in:
+
+- Application Security
+- Vulnerability Management
+- DevSecOps
+- Detection Engineering
+- Threat Hunting
+- Cloud Security
+- Blue Team Operations
+
+---
+
+# 🤝 Professional Values
+
+I believe cybersecurity is built on three fundamental principles:
+
+- Continuous learning.
+- Practical experience.
+- Knowledge sharing.
+
+Every laboratory included in this repository is intended to strengthen technical skills while promoting ethical and responsible cybersecurity practices.
 
 ---
 
 # 📫 Contact
 
-LinkedIn:
-https://www.linkedin.com/in/luis-toro-74a66694/
+**LinkedIn**
 
-GitHub:
-https://github.com/LuisToro06
+www.linkedin.com/in/luis-toro-74a66694
 
-Email:
+**GitHub**
+
+github.com/LuisToro06
+
+**Email**
+
 luis.toro.cyber@gmail.com
 
 ---
 
-> "Cybersecurity is not only about protecting systems; it is about protecting trust."
+> *"Continuous learning, practical experience, and knowledge sharing are essential to building a safer digital world."*
