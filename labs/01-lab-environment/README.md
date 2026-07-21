@@ -1,202 +1,173 @@
-# Laboratory 01 - Cybersecurity Lab Environment
+Laboratory 01 – Cybersecurity Lab Environment
+Introduction
 
----
+A secure and well-designed laboratory environment is the foundation of every cybersecurity assessment. Before performing vulnerability assessments, penetration testing, digital forensics, or defensive security operations, it is essential to establish an isolated infrastructure where testing can be conducted without affecting production systems.
 
-## Introduction
+This laboratory documents the virtual infrastructure used throughout this cybersecurity portfolio. The environment has been built using Oracle VirtualBox and consists of multiple intentionally vulnerable virtual machines that simulate enterprise scenarios for cybersecurity research, vulnerability assessment, network analysis, and security validation.
 
-A well-designed laboratory environment is the foundation of any cybersecurity assessment. Before conducting vulnerability assessments, penetration testing, digital forensics, or defensive security activities, it is essential to establish a secure and isolated infrastructure where testing can be performed without affecting production systems.
+All subsequent laboratories contained in this repository will be conducted within this isolated environment.
 
-This laboratory documents the virtual environment used throughout this cybersecurity portfolio. The infrastructure has been built using Oracle VirtualBox and consists of multiple virtual machines designed to simulate real-world enterprise environments for security testing, vulnerability assessment, network analysis, and cybersecurity research.
+Laboratory Overview
 
-All future laboratories included in this repository will be performed within this isolated environment.
+The following figure presents the Oracle VirtualBox environment used throughout this cybersecurity portfolio.
 
----
+<p align="center"> <img src="images/01-virtualbox-overview.png" width="900"> </p> <p align="center"> <b>Figure 1.</b> Oracle VirtualBox Cybersecurity Laboratory Environment. </p>
+Learning Objectives
 
-## Learning Objectives
+After completing this laboratory, the reader will be able to:
 
-Upon completing this laboratory, the reader will be able to:
+Understand the architecture of an isolated cybersecurity laboratory.
+Identify the purpose of each virtual machine.
+Configure a secure virtual environment for security assessments.
+Understand virtualization concepts applied to cybersecurity.
+Recognize the importance of network isolation.
+Prepare the environment for future penetration testing and Blue Team exercises.
+Laboratory Specifications
+Component	Specification
+Virtualization Platform	Oracle VirtualBox
+Host Operating System	Windows 11 Pro
+Virtual Network	NAT Network (Isolated)
+Number of Virtual Machines	4
+Primary Attacker Machine	Kali Linux 2025.4
+Target Systems	Metasploitable 2, Metasploitable 3 Ubuntu, Metasploitable 3 Windows
+Laboratory Environment
 
-- Understand the architecture of the virtual cybersecurity laboratory.
-- Identify the virtual machines used throughout the portfolio.
-- Understand the purpose of each virtual machine.
-- Configure a secure virtual environment for cybersecurity testing.
-- Recognize the importance of network isolation during security assessments.
-- Prepare the laboratory for future vulnerability assessments and penetration testing exercises.
+The laboratory consists of four virtual machines designed to simulate a small enterprise environment.
 
----
+Virtual Machine	Operating System	Primary Role
+Kali Linux 2025.4	Debian Linux	Attacker workstation used for reconnaissance, vulnerability assessment, penetration testing, digital forensics, and security validation.
+Metasploitable 2	Ubuntu Linux	Intentionally vulnerable Linux server used for basic penetration testing exercises.
+Metasploitable 3 Ubuntu	Ubuntu Server	Enterprise Linux environment containing multiple vulnerable services.
+Metasploitable 3 Windows	Windows Server 2008	Enterprise Windows environment for Active Directory and Windows security testing.
+Laboratory Architecture
 
-## Laboratory Environment
+The laboratory follows a client-server architecture in which Kali Linux performs offensive security tasks while the remaining virtual machines simulate vulnerable enterprise systems.
 
-The laboratory has been implemented using Oracle VirtualBox as the virtualization platform.
+                     Oracle VirtualBox
 
-### Virtual Machines
+                  Isolated NAT Network
 
-| Virtual Machine | Operating System | Purpose |
-|-----------------|-----------------|----------|
-| Kali Linux 2025.4 | Linux | Attacker Machine |
-| Metasploitable 2 | Ubuntu Linux | Vulnerable Linux Server |
-| Metasploitable 3 Ubuntu | Ubuntu Server | Vulnerable Enterprise Environment |
-| Metasploitable 3 Windows | Windows Server | Vulnerable Active Directory Environment |
+                            │
+     ┌──────────────────────┼──────────────────────┐
+     │                      │                      │
+     │                      │                      │
+┌───────────────┐   ┌────────────────┐   ┌────────────────────┐
+│ Kali Linux    │   │ Metasploitable │   │ Metasploitable 3   │
+│ 2025.4        │   │ 2              │   │ Ubuntu             │
+│ Attacker      │   │ Vulnerable VM  │   │ Vulnerable VM      │
+└───────────────┘   └────────────────┘   └────────────────────┘
+                             │
+                   ┌────────────────────┐
+                   │ Metasploitable 3   │
+                   │ Windows Server     │
+                   │ Vulnerable VM      │
+                   └────────────────────┘
 
-The attacker machine performs reconnaissance, vulnerability assessment, web security testing, packet analysis, digital forensics, and security validation against intentionally vulnerable systems.
+The entire environment remains isolated from production systems to ensure safe cybersecurity experimentation.
 
----
+Virtualization Platform
 
-## Laboratory Architecture
+Oracle VirtualBox has been selected because it provides:
 
-The laboratory follows a client-server architecture where Kali Linux acts as the attacking machine while the remaining virtual machines simulate vulnerable enterprise environments.
+Secure virtualization
+Snapshot management
+Flexible virtual networking
+Resource allocation
+Cross-platform compatibility
+Easy recovery of laboratory environments
+Network Configuration
 
-```
-                         Oracle VirtualBox
+The virtual machines communicate through an isolated NAT Network configured in Oracle VirtualBox.
 
-                       Isolated Virtual Network
+This configuration enables:
 
-                                │
-      ┌─────────────────────────┼─────────────────────────┐
-      │                         │                         │
-      │                         │                         │
-┌───────────────┐      ┌────────────────┐      ┌──────────────────┐
-│ Kali Linux    │      │ Metasploitable │      │ Metasploitable 3 │
-│ 2025.4        │      │ 2              │      │ Ubuntu           │
-│ Attacker      │      │ Vulnerable VM  │      │ Vulnerable VM    │
-└───────────────┘      └────────────────┘      └──────────────────┘
-                                   │
-                          ┌──────────────────┐
-                          │ Metasploitable 3 │
-                          │ Windows Server   │
-                          │ Vulnerable VM    │
-                          └──────────────────┘
-```
+Host discovery
+Port scanning
+Service enumeration
+Vulnerability assessment
+Web application testing
+Packet capture
+Traffic analysis
+Controlled attack simulation
 
-This architecture allows realistic cybersecurity exercises while maintaining complete isolation from production systems.
+No production systems are connected to this laboratory.
 
----
-
-## Virtualization Platform
-
-The laboratory uses Oracle VirtualBox to manage all virtual machines.
-
-### Main Features
-
-- Snapshot management
-- Virtual networking
-- Secure isolation
-- Resource allocation
-- Cross-platform compatibility
-
----
-
-## Network Configuration
-
-The virtual machines communicate through an isolated virtual network configured within Oracle VirtualBox.
-
-This configuration allows:
-
-- Host discovery
-- Network scanning
-- Service enumeration
-- Vulnerability assessment
-- Web application testing
-- Packet capture
-- Traffic analysis
-
-No production devices participate in the laboratory.
-
----
-
-## Tools Available
+Security Tools
 
 The following tools will be used throughout this cybersecurity portfolio.
 
-| Tool | Purpose |
-|------|----------|
-| Nmap | Network Discovery |
-| Wireshark | Packet Analysis |
-| Burp Suite Community | Web Security Testing |
-| OWASP ZAP | Web Vulnerability Assessment |
-| OpenVAS | Vulnerability Scanning |
-| Nikto | Web Server Assessment |
-| Gobuster | Directory Enumeration |
-| SQLMap | SQL Injection Testing |
-| Wazuh | SIEM and Blue Team Monitoring |
-| Autopsy | Digital Forensics |
-| pfSense | Firewall Laboratory |
+Tool	Purpose
+Nmap	Network Discovery and Port Scanning
+Wireshark	Network Packet Analysis
+Burp Suite Community	Web Application Security Testing
+OWASP ZAP	Web Vulnerability Assessment
+OpenVAS	Vulnerability Scanning
+Nikto	Web Server Assessment
+Gobuster	Directory and Resource Enumeration
+SQLMap	SQL Injection Testing
+Autopsy	Digital Forensics
+Wazuh	SIEM and Blue Team Monitoring
+pfSense	Firewall and Network Security Laboratory
 
-Additional tools will be introduced as new laboratories are developed.
+Additional security tools will be incorporated as future laboratories are developed.
 
----
+Security Considerations
 
-## Security Considerations
+This laboratory follows responsible cybersecurity practices.
 
-This laboratory has been designed following responsible cybersecurity practices.
+The following principles are respected throughout every exercise:
 
-The following principles are applied:
+Complete isolation from production environments.
+Testing only against authorized systems.
+Vulnerable machines are used exclusively for educational purposes.
+Offensive security activities remain confined to the laboratory.
+Ethical hacking principles are followed during all assessments.
+Laboratory snapshots are created before major testing activities.
+Laboratory Scope
 
-- Complete isolation from production environments.
-- Vulnerable machines are used exclusively for educational purposes.
-- Security assessments are performed only against authorized systems.
-- No offensive activities are conducted outside the laboratory.
-- Ethical hacking principles are respected throughout every exercise.
+This laboratory serves as the foundation for practical exercises involving:
 
----
+Network Reconnaissance
+Port Scanning
+Service Enumeration
+Vulnerability Assessment
+Web Application Security
+Blue Team Operations
+Digital Forensics
+Active Directory Security
+Cloud Security
+Security Awareness
+Secure Configuration Assessment
+Expected Learning Outcomes
 
-## Laboratory Scope
+After completing this laboratory, the reader will possess a fully operational cybersecurity environment capable of supporting professional security assessments.
 
-The laboratory will support the development of practical exercises related to:
+This infrastructure serves as the foundation for every practical exercise documented throughout this cybersecurity portfolio.
 
-- Network Reconnaissance
-- Service Enumeration
-- Vulnerability Assessment
-- Web Application Security
-- Blue Team Operations
-- Digital Forensics
-- Active Directory Security
-- Cloud Security
-- Security Awareness
-- Secure Configuration Assessment
+Next Laboratory
 
----
+The next laboratory introduces network reconnaissance using Nmap.
 
-## Expected Learning Outcomes
-
-After completing this laboratory, the reader will have a fully documented cybersecurity environment capable of supporting practical security assessments.
-
-This laboratory serves as the foundation for all subsequent exercises included in this repository.
-
----
-
-## Next Laboratory
-
-The next laboratory focuses on network reconnaissance using Nmap.
-
-**Laboratory 02 – Reconnaissance**
+Laboratory 02 – Network Reconnaissance
 
 Topics include:
 
-- Host Discovery
-- Port Scanning
-- Service Detection
-- Operating System Detection
-- Nmap Scripting Engine (NSE)
+Host Discovery
+Port Scanning
+Service Detection
+Operating System Detection
+Nmap Scripting Engine (NSE)
+Lessons Learned
 
----
+Building an isolated cybersecurity laboratory is the first step toward developing practical security skills.
 
-## Lessons Learned
+A properly documented virtual environment improves reproducibility, facilitates experimentation, minimizes operational risks, and provides a secure platform for learning, research, and professional cybersecurity assessments.
 
-A properly documented laboratory environment is essential before conducting any cybersecurity assessment.
-
-Establishing an isolated virtual infrastructure ensures that security testing can be performed safely while providing a realistic environment for learning, research, and professional practice.
-
-Proper laboratory planning improves reproducibility, facilitates documentation, and supports the development of practical cybersecurity skills aligned with industry best practices.
-
----
-
-## References
-
-- Oracle VirtualBox Documentation
-- Kali Linux Documentation
-- OWASP Foundation
-- NIST Cybersecurity Framework (CSF)
-- NIST SP 800-115 Technical Guide to Information Security Testing and Assessment
-- MITRE ATT&CK Framework
-- CIS Controls Version 8
+References
+Oracle. Oracle VM VirtualBox User Manual.
+Kali Linux Documentation.
+OWASP Foundation.
+NIST SP 800-115 — Technical Guide to Information Security Testing and Assessment.
+NIST Cybersecurity Framework (CSF) 2.0.
+MITRE ATT&CK Framework.
+CIS Controls Version 8.
