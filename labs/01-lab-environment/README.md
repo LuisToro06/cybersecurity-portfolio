@@ -43,6 +43,7 @@ Metasploitable 3 Windows	Windows Server 2008	Enterprise Windows environment for 
 Laboratory Architecture
 
 The laboratory follows a client-server architecture in which Kali Linux performs offensive security tasks while the remaining virtual machines simulate vulnerable enterprise systems.
+
                      Oracle VirtualBox
 
                   Isolated NAT Network
@@ -62,6 +63,7 @@ The laboratory follows a client-server architecture in which Kali Linux performs
                    │ Windows Server     │
                    │ Vulnerable VM      │
                    └────────────────────┘
+
 
 The entire environment remains isolated from production systems to ensure safe cybersecurity experimentation.
 
