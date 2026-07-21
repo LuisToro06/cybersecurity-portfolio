@@ -39,10 +39,10 @@ Kali Linux 2025.4	Debian Linux	Attacker workstation used for reconnaissance, vul
 Metasploitable 2	Ubuntu Linux	Intentionally vulnerable Linux server used for basic penetration testing exercises.
 Metasploitable 3 Ubuntu	Ubuntu Server	Enterprise Linux environment containing multiple vulnerable services.
 Metasploitable 3 Windows	Windows Server 2008	Enterprise Windows environment for Active Directory and Windows security testing.
+
 Laboratory Architecture
 
 The laboratory follows a client-server architecture in which Kali Linux performs offensive security tasks while the remaining virtual machines simulate vulnerable enterprise systems.
-
                      Oracle VirtualBox
 
                   Isolated NAT Network
