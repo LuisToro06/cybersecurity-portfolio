@@ -102,7 +102,7 @@ Metasploitable 2 is an intentionally vulnerable Ubuntu-based virtual machine des
 <p align="center">
 <b>Figure 3.</b> Metasploitable 2 intentionally vulnerable Linux target.
 </p>
-
+---
 ### Metasploitable 3 Ubuntu
 
 Metasploitable 3 Ubuntu simulates a modern enterprise Linux environment containing intentionally vulnerable services for realistic security assessments and penetration testing exercises.
@@ -114,6 +114,7 @@ Metasploitable 3 Ubuntu simulates a modern enterprise Linux environment containi
 <p align="center">
 <b>Figure 4.</b> Metasploitable 3 Windows Server environment for Active Directory security assessments.
 </p>
+---
 
 ### Metasploitable 3 Windows
 
@@ -126,6 +127,7 @@ Metasploitable 3 Windows simulates a Windows Server enterprise environment that 
 <p align="center">
 <b>Figure 5.</b> Metasploitable 3 Windows Server virtual machine.
 </p>
+---
 
 ## 🏗️ Laboratory Architecture
 
