@@ -73,6 +73,41 @@ Kali Linux is the primary attacker workstation used throughout this cybersecurit
 <b>Figure 2.</b> Kali Linux 2025.4 attacker workstation.
 </p>
 ---
+### Metasploitable 2
+
+Metasploitable 2 is an intentionally vulnerable Ubuntu-based virtual machine designed for learning penetration testing, service enumeration, vulnerability assessment, and exploitation techniques in a controlled environment.
+
+<p align="center">
+  <img src="images/03-metasploitable2.png" alt="Metasploitable 2" width="900">
+</p>
+
+<p align="center">
+<b>Figure 3.</b> Metasploitable 2 vulnerable Linux server.
+</p>
+
+### Metasploitable 3 Ubuntu
+
+Metasploitable 3 Ubuntu simulates a modern enterprise Linux environment containing intentionally vulnerable services for realistic security assessments and penetration testing exercises.
+
+<p align="center">
+  <img src="images/04-metasploitable3-ubuntu.png" alt="Metasploitable 3 Ubuntu" width="900">
+</p>
+
+<p align="center">
+<b>Figure 4.</b> Metasploitable 3 Ubuntu virtual machine.
+</p>
+
+### Metasploitable 3 Windows
+
+Metasploitable 3 Windows simulates a Windows Server enterprise environment that will later be used for Active Directory security assessments, enumeration, privilege escalation, and Blue Team exercises.
+
+<p align="center">
+  <img src="images/05-metasploitable3-windows.png" alt="Metasploitable 3 Windows" width="900">
+</p>
+
+<p align="center">
+<b>Figure 5.</b> Metasploitable 3 Windows Server virtual machine.
+</p>
 
 ## 🏗️ Laboratory Architecture
 
