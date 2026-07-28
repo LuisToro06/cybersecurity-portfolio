@@ -1,6 +1,24 @@
 # 🖥️ Laboratory 01 – Cybersecurity Lab Environment
 
 ---
+## 📑 Table of Contents
+
+- [Introduction](#-introduction)
+- [Laboratory Overview](#-laboratory-overview)
+- [Learning Objectives](#-learning-objectives)
+- [Laboratory Specifications](#-laboratory-specifications)
+- [Virtual Machines](#-virtual-machines)
+- [Laboratory Architecture](#-laboratory-architecture)
+- [Network Configuration](#-network-configuration)
+- [Security Tools](#-security-tools)
+- [Security Considerations](#-security-considerations)
+- [Laboratory Scope](#-laboratory-scope)
+- [Expected Learning Outcomes](#-expected-learning-outcomes)
+- [Next Laboratory](#-next-laboratory)
+- [Lessons Learned](#-lessons-learned)
+- [References](#-references)
+
+---
 
 ## 📖 Introduction
 
@@ -70,7 +88,7 @@ Kali Linux is the primary attacker workstation used throughout this cybersecurit
 </p>
 
 <p align="center">
-<b>Figure 2.</b> Kali Linux 2025.4 attacker workstation.
+<b>Figure 2.</b> Kali Linux 2025.4 configured as the primary attacker workstation.
 </p>
 ---
 ### Metasploitable 2
@@ -82,7 +100,7 @@ Metasploitable 2 is an intentionally vulnerable Ubuntu-based virtual machine des
 </p>
 
 <p align="center">
-<b>Figure 3.</b> Metasploitable 2 vulnerable Linux server.
+<b>Figure 3.</b> Metasploitable 2 intentionally vulnerable Linux target.
 </p>
 
 ### Metasploitable 3 Ubuntu
@@ -94,7 +112,7 @@ Metasploitable 3 Ubuntu simulates a modern enterprise Linux environment containi
 </p>
 
 <p align="center">
-<b>Figure 4.</b> Metasploitable 3 Ubuntu virtual machine.
+<b>Figure 4.</b> Metasploitable 3 Windows Server environment for Active Directory security assessments.
 </p>
 
 ### Metasploitable 3 Windows
@@ -238,6 +256,15 @@ A properly documented virtual environment improves reproducibility, facilitates 
 
 ---
 
+## 📌 Project Status
+
+✅ Laboratory completed
+
+The laboratory environment has been successfully configured and documented.
+
+This environment will be used throughout all subsequent cybersecurity laboratories included in this repository.
+
+---
 ## 📖 References
 
 1. Oracle VM VirtualBox User Manual.
@@ -247,3 +274,21 @@ A properly documented virtual environment improves reproducibility, facilitates 
 5. NIST Cybersecurity Framework (CSF) 2.0.
 6. MITRE ATT&CK Framework.
 7. CIS Controls Version 8.
+
+---
+
+## 👨‍💻 Author
+
+**Luis Germán Toro Pareja**
+
+Systems Engineer | Cybersecurity Researcher | University Professor
+
+GitHub:
+https://github.com/LuisToro06
+
+LinkedIn:
+https://www.linkedin.com/in/luis-toro-74a66694/
+
+## 📄 License
+
+This project is licensed under the MIT License.
