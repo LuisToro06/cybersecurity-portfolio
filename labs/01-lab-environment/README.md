@@ -61,6 +61,17 @@ After completing this laboratory, the reader will be able to:
 | Metasploitable 3 Ubuntu | Ubuntu Server | Enterprise Linux environment for security assessments. |
 | Metasploitable 3 Windows | Windows Server 2008 | Enterprise Windows environment for Windows security and Active Directory testing. |
 
+### Kali Linux 2025.4
+
+Kali Linux is the primary attacker workstation used throughout this cybersecurity portfolio. It provides the tools required for reconnaissance, vulnerability assessment, penetration testing, web security testing, digital forensics, and network analysis.
+
+<p align="center">
+  <img src="images/02-kali-linux.png" alt="Kali Linux 2025.4" width="900">
+</p>
+
+<p align="center">
+<b>Figure 2.</b> Kali Linux 2025.4 attacker workstation.
+</p>
 ---
 
 ## 🏗️ Laboratory Architecture
