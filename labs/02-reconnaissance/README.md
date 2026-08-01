@@ -17,21 +17,21 @@ All activities were conducted within the isolated laboratory environment configu
 
 ## 📑 Table of Contents
 
-- Introduction
-- Learning Objectives
-- Lab Scenario
-- Target Environment
-- Network Verification
-- Host Discovery
-- Port Scanning
-- Service Detection
-- Operating System Detection
-- Nmap Scripting Engine (NSE)
-- Comprehensive Scan
-- Key Findings
-- Lessons Learned
-- References
-- License
+- [Introduction](#-introduction)
+- [Learning Objectives](#-learning-objectives)
+- [Lab Scenario](#-lab-scenario)
+- [Target Environment](#-target-environment)
+- [Network Verification](#-network-verification)
+- [Host Discovery](#-host-discovery)
+- [Port Scanning](#-port-scanning)
+- [Service Detection](#-service-detection)
+- [Operating System Detection](#-operating-system-detection)
+- [Nmap Scripting Engine (NSE)](#-nmap-scripting-engine-nse)
+- [Comprehensive Scan](#-comprehensive-scan)
+- [Key Findings](#-key-findings)
+- [Lessons Learned](#-lessons-learned)
+- [References](#-references)
+- [License](#-license)
 
 ---
 
