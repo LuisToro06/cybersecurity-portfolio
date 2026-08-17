@@ -46,7 +46,7 @@ The assessment was performed from **Kali Linux** against the DVWA instance hoste
 - [18. 📸 Evidence Index](#18--evidence-index)
 - [19. 🔐 Scope and Authorization](#19--scope-and-authorization)
 - [20. ✅ Conclusion](#20--conclusion)
-- [21. ⚖️ Disclaimer](#21--disclaimer)
+- - [21. ⚖️ Disclaimer](#disclaimer)
 
 ---
 ## 🎯 Objectives
@@ -936,7 +936,7 @@ The Command Injection test was documented according to the actual evidence obtai
 This approach ensures that the laboratory documentation remains technically accurate and professionally defensible.
 
 ---
-
+<a id="disclaimer"></a>
 # 21. ⚖️ Disclaimer
 
 This laboratory was performed exclusively against an intentionally vulnerable application in a controlled and isolated virtual environment for educational and cybersecurity training purposes.
