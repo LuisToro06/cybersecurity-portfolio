@@ -1,3 +1,4 @@
+
 # 🌐 Lab 05 — Web Application Security Assessment
 
 This laboratory focuses on the security assessment of an intentionally vulnerable web application using **Damn Vulnerable Web Application (DVWA)**.
@@ -8,6 +9,46 @@ The assessment was performed from **Kali Linux** against the DVWA instance hoste
 
 ---
 
+## 📑 Table of Contents
+
+- [🎯 Objectives](#-objectives)
+- [🧪 Laboratory Environment](#-laboratory-environment)
+- [1. 🎯 DVWA Target](#1--dvwa-target)
+- [2. 🔎 Web Resource Discovery](#2--web-resource-discovery)
+- [3. 🕷️ OWASP ZAP Spider](#3--owasp-zap-spider)
+- [4. 🛡️ OWASP ZAP Passive Scan](#4--owasp-zap-passive-scan)
+- [5. ⚠️ Reflected Cross-Site Scripting (XSS)](#5--reflected-cross-site-scripting-xss)
+- [6. 💾 Stored Cross-Site Scripting (XSS)](#6--stored-cross-site-scripting-xss)
+- [7. 💉 SQL Injection](#7--sql-injection)
+- [8. 🧰 SQLMap Assessment](#8--sqlmap-assessment)
+- [9. ⚙️ Command Injection](#9--command-injection)
+- [10. 🚨 Security Findings](#10--security-findings)
+- [11. 📊 Security Assessment Summary](#11--security-assessment-summary)
+- [12. 🔍 Security Findings and Risk Considerations](#12--security-findings-and-risk-considerations)
+  - [12.1 Cross-Site Scripting](#121-cross-site-scripting)
+  - [12.2 SQL Injection](#122-sql-injection)
+  - [12.3 Command Injection](#123-command-injection)
+  - [12.4 HTTP Security Headers](#124-http-security-headers)
+  - [12.5 Cookie Security](#125-cookie-security)
+  - [12.6 Information Disclosure](#126-information-disclosure)
+- [13. 🛠️ Security Recommendations](#13--security-recommendations)
+  - [13.1 Input Validation](#131-input-validation)
+  - [13.2 Output Encoding](#132-output-encoding)
+  - [13.3 Database Security](#133-database-security)
+  - [13.4 Session Security](#134-session-security)
+  - [13.5 HTTP Security Headers](#135-http-security-headers)
+  - [13.6 Secure Error Handling](#136-secure-error-handling)
+  - [13.7 Continuous Security Testing](#137-continuous-security-testing)
+- [14. 🧠 Lessons Learned](#14--lessons-learned)
+- [15. 📋 Assessment Methodology](#15--assessment-methodology)
+- [16. 📁 Evidence Structure](#16--evidence-structure)
+- [17. 🧰 Tools Used](#17--tools-used)
+- [18. 📸 Evidence Index](#18--evidence-index)
+- [19. 🔐 Scope and Authorization](#19--scope-and-authorization)
+- [20. ✅ Conclusion](#20--conclusion)
+- [21. ⚖️ Disclaimer](#21--disclaimer)
+
+---
 ## 🎯 Objectives
 
 The main objectives of this laboratory are:
