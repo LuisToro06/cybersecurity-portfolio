@@ -46,7 +46,7 @@ The assessment was performed from **Kali Linux** against the DVWA instance hoste
 - [18. 📸 Evidence Index](#18--evidence-index)
 - [19. 🔐 Scope and Authorization](#19--scope-and-authorization)
 - [20. ✅ Conclusion](#20--conclusion)
-- [21. ⚖️ Disclaimer](#21-disclaimer)
+- [21. ⚖️ Disclaimer](#21--disclaimer)
 
 ---
 ## 🎯 Objectives
