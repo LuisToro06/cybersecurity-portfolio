@@ -89,12 +89,12 @@ All activities are performed exclusively for educational, research, and professi
 
 | Section | Description | Status |
 |----------|-------------|--------|
-| 01 - Lab Environment | Laboratory configuration and setup | 🚧 |
-| 02 - Reconnaissance | Host discovery and network scanning | 🚧 |
-| 03 - Enumeration | Service and resource enumeration | 🚧 |
-| 04 - Vulnerability Assessment | Vulnerability identification and analysis | 🚧 |
-| 05 - Web Application Security | Security testing of web applications | 🚧 |
-| 06 - Blue Team | Detection, monitoring and defensive security | 🚧 |
+| 01 - Lab Environment | Laboratory configuration and setup | ✅ |
+| 02 - Reconnaissance | Host discovery and network scanning | ✅ |
+| 03 - Enumeration | Service and resource enumeration | ✅ |
+| 04 - Vulnerability Assessment | Vulnerability identification and analysis | ✅ |
+| 05 - Web Application Security | Security testing of web applications | ✅ |
+| 06 - Vulnerability Exploitation | Vulnerability exploitation and controlled penetration testing | ✅ |
 | 07 - Active Directory Security | Windows Server security laboratories | 🚧 |
 | 08 - Cloud Security | AWS and cloud security laboratories | 🚧 |
 | 09 - Security Awareness | Awareness and cybersecurity education | 🚧 |
