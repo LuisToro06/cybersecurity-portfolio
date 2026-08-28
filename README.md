@@ -95,7 +95,7 @@ All activities are performed exclusively for educational, research, and professi
 | 04 - Vulnerability Assessment | Vulnerability identification and analysis | ✅ |
 | 05 - Web Application Security | Security testing of web applications | ✅ |
 | 06 - Vulnerability Exploitation | Vulnerability exploitation and controlled penetration testing | ✅ |
-| 07 - Active Directory Security | Windows Server security laboratories | 🚧 |
+| 07 - Active Directory Security | Windows Server security laboratories | ✅ |
 | 08 - Cloud Security | AWS and cloud security laboratories | 🚧 |
 | 09 - Security Awareness | Awareness and cybersecurity education | 🚧 |
 | 10 - Research | Scientific publications and applied research | ✅ |
