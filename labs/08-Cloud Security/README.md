@@ -522,7 +522,7 @@ Security Hub findings may originate from controls and integrated services. The t
 
 ## 8.5 Resources
 
-![Figure 31 — Security Hub Resources](images/fig-31-securityhub-resources)
+![Figure 31 — Security Hub Resources](images/fig-31-securityhub-resources.png)
 
 **Figure 31. Security Hub resource inventory.**
 
