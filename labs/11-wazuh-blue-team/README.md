@@ -162,6 +162,7 @@ communication from Windows Server to the Wazuh server. The figure should
 show the actual validation output collected during the lab.
 
 ![Figura 1](images/01-lab-network-validation.png)
+
 **Evidence:** Figure 1 --- `01-lab-network-validation.png`
 
 ### 8.2 Wazuh Dashboard
