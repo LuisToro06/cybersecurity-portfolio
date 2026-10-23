@@ -347,60 +347,77 @@ validation and investigation, not an unsupported claim of compromise.
 
 ## Evidence Index
 
-All screenshots are stored in the repository's `images/` directory. The
-Markdown links below assume this README is located in the lab folder and
-that `images/` is a subfolder of the same directory.
+All screenshots are stored in the `images/` subfolder beside this `README.md`. The paths below are relative to this file. GitHub renders each image directly when the repository structure matches the example below.
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------
-  Figure                  Evidence                                                                                          Purpose
-  ----------------------- ------------------------------------------------------------------------------------------------- -----------------------
-  1                       [`fig01-aws-budget.png`](images/fig01-aws-budget.png)                                             AWS Budgets
-                                                                                                                            configuration and cost
-                                                                                                                            monitoring
+```text
+12-aws-cloud-security/
+├── README.md
+└── images/
+    ├── fig01-aws-budget.png
+    ├── fig02a-iam-user-group.png
+    ├── fig02b-iam-group-policies.png
+    ├── fig02c-iam-roles.png
+    ├── fig02d-root-mfa.png
+    ├── fig03-s3-public-access.png
+    ├── fig04-s3-encryption.png
+    ├── fig05-cloudtrail-events.png
+    ├── fig06-cloudtrail-event-details.png
+    ├── fig07-guardduty-status.png
+    ├── fig08-guardduty-usage-cost.png
+    └── fig09-guardduty-root-credential-usage.png
+```
 
-  2a                      [`fig02a-iam-user-group.png`](images/fig02a-iam-user-group.png)                                   IAM user and group
-                                                                                                                            membership
+### Figure 1 — AWS Budgets
 
-  2b                      [`fig02b-iam-group-policies.png`](images/fig02b-iam-group-policies.png)                           Policies attached to an
-                                                                                                                            IAM group
+![Figure 1 — AWS Budgets configuration and cost monitoring](images/fig01-aws-budget.png)
 
-  2c                      [`fig02c-iam-roles.png`](images/fig02c-iam-roles.png)                                             IAM roles review
+### Figure 2a — IAM user and group
 
-  2d                      [`fig02d-root-mfa.png`](images/fig02d-root-mfa.png)                                               Root-account MFA
-                                                                                                                            evidence, if included
+![Figure 2a — IAM user and group membership](images/fig02a-iam-user-group.png)
 
-  3                       [`fig03-s3-public-access.png`](images/fig03-s3-public-access.png)                                 S3 public-access
-                                                                                                                            settings
+### Figure 2b — IAM group policies
 
-  4                       [`fig04-s3-encryption.png`](images/fig04-s3-encryption.png)                                       S3 default encryption
+![Figure 2b — Policies attached to an IAM group](images/fig02b-iam-group-policies.png)
 
-  5                       [`fig05-cloudtrail-events.png`](images/fig05-cloudtrail-events.png)                               CloudTrail Event
-                                                                                                                            history
+### Figure 2c — IAM roles
 
-  6                       [`fig06-cloudtrail-event-details.png`](images/fig06-cloudtrail-event-details.png)                 Details of a selected
-                                                                                                                            CloudTrail event
+![Figure 2c — IAM roles review](images/fig02c-iam-roles.png)
 
-  7                       [`fig07-guardduty-status.png`](images/fig07-guardduty-status.png)                                 GuardDuty status
+### Figure 2d — Root account MFA
 
-  8                       [`fig08-guardduty-usage-cost.png`](images/fig08-guardduty-usage-cost.png)                         GuardDuty Usage page;
-                                                                                                                            graphs showed no data
-                                                                                                                            for the selected
-                                                                                                                            interval
+![Figure 2d — Root account MFA evidence](images/fig02d-root-mfa.png)
 
-  9                       [`fig09-guardduty-root-credential-usage.png`](images/fig09-guardduty-root-credential-usage.png)   Low-severity
-                                                                                                                            root-credential-usage
-                                                                                                                            finding
-  -------------------------------------------------------------------------------------------------------------------------------------------------
+### Figure 3 — S3 public access
 
-> **Evidence hygiene:** Before committing screenshots, redact account
-> IDs, access key IDs, IP addresses, email addresses, usernames, and any
-> other information that could expose account or personal details. Do
-> not publish credentials, secret keys, session tokens, or other
-> authentication material.
+![Figure 3 — S3 Block Public Access settings](images/fig03-s3-public-access.png)
 
-If a figure was not captured, remove its row rather than leaving a
-broken link. Keep the filenames consistent with the actual files in
-`images/`.
+### Figure 4 — S3 encryption
+
+![Figure 4 — S3 default encryption](images/fig04-s3-encryption.png)
+
+### Figure 5 — CloudTrail events
+
+![Figure 5 — CloudTrail Event history](images/fig05-cloudtrail-events.png)
+
+### Figure 6 — CloudTrail event details
+
+![Figure 6 — Details of a selected CloudTrail event](images/fig06-cloudtrail-event-details.png)
+
+### Figure 7 — GuardDuty status
+
+![Figure 7 — GuardDuty status](images/fig07-guardduty-status.png)
+
+### Figure 8 — GuardDuty usage and cost metrics
+
+![Figure 8 — GuardDuty Usage page; graphs showed no data for the selected interval](images/fig08-guardduty-usage-cost.png)
+
+### Figure 9 — GuardDuty root credential usage finding
+
+![Figure 9 — Low-severity root-credential-usage finding](images/fig09-guardduty-root-credential-usage.png)
+
+> **Evidence hygiene:** Before committing screenshots, redact account IDs, access key IDs, IP addresses, email addresses, usernames, and any other information that could expose account or personal details. Do not publish credentials, secret keys, session tokens, or other authentication material.
+
+**Troubleshooting:** If an image does not render on GitHub, confirm that the image file has been committed and pushed, that the filename matches exactly (including uppercase/lowercase), and that `README.md` and `images/` are siblings in this lab directory. GitHub does not display a local image merely because it exists on your computer.
 
 ## Conclusion
 
@@ -423,4 +440,3 @@ comprehensive security audit, penetration test, or certification of
 compliance. Service behavior, pricing, and console interfaces may
 change. Confirm current AWS documentation and billing information before
 making operational or cost-related decisions.
-
