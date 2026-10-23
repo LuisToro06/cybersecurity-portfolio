@@ -90,20 +90,21 @@ All activities are performed exclusively for educational, research, and professi
 ---
 # 📂 Portfolio Structure
 
+The links below use the folder names currently present in the repository.
+
 | Section | Description | Status |
 |----------|-------------|--------|
 | [01 - Lab Environment](labs/01-lab-environment/) | Laboratory configuration and setup | ✅ |
 | [02 - Reconnaissance](labs/02-reconnaissance/) | Host discovery and network scanning | ✅ |
-| [03 - Enumeration](labs/03-enumeration/) | Service and resource enumeration | ✅ |
+| [03 - Service Enumeration](<labs/03–Service Enumeration/>) | Service and resource enumeration | ✅ |
 | [04 - Vulnerability Assessment](labs/04-vulnerability-assessment/) | Vulnerability identification and analysis | ✅ |
 | [05 - Web Application Security](labs/05-web-application-security/) | Security testing of web applications | ✅ |
-| [06 - Vulnerability Exploitation](labs/06-vulnerability-exploitation/) | Vulnerability exploitation and controlled penetration testing | ✅ |
+| [06 - Vulnerability Exploitation](labs/06-vulnerability-exploitation/) | Controlled vulnerability exploitation and penetration testing | ✅ |
 | [07 - Active Directory Security](labs/07-active-directory-security/) | Windows Server and Active Directory security laboratories | ✅ |
-| [08 - Cloud Security](labs/08-cloud-security/) | Earlier cloud security exercises | ✅ |
-| [09 - Security Awareness](labs/09-security-awareness/) | Awareness and cybersecurity education | ✅ |
-| [10 - Research](labs/10-research/) | Scientific publications and applied research | ✅ |
-| [11 - Wazuh SIEM and Detection](labs/11-wazuh-siem/) | Security monitoring, Windows endpoint telemetry, security configuration assessment, and MITRE ATT&CK mapping | ✅ |
-| [12 - AWS Cloud Security](labs/12-aws-cloud-security/) | AWS security baseline: IAM, root-account MFA, S3 public-access blocking and encryption, CloudTrail event review, GuardDuty findings, and cost awareness | ✅ |
+| [08 - Cloud Security](<labs/08-Cloud Security/>) | Cloud security exercises | ✅ |
+| [09 - Security Awareness](<labs/09-Security Awareness/>) | Awareness and cybersecurity education | ✅ |
+| [11 - Wazuh Blue Team](labs/11-wazuh-blue-team/) | SIEM monitoring, Windows endpoint telemetry, security configuration assessment, and MITRE ATT&CK mapping | ✅ |
+| [12 - AWS Cloud Security](labs/12-aws-cloud-security/) | IAM, root-account MFA, S3 protection, CloudTrail, GuardDuty, and cost awareness | ✅ |
 
 ---
 # 📖 Featured Scientific Publication
