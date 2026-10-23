@@ -3,17 +3,14 @@
 Welcome to my Cybersecurity Portfolio.
 
 I am a Systems Engineer with dual Master's degrees in Information Security (UNIR – Spain and Mexico), specializing in cybersecurity, application security, vulnerability assessment, risk management, applied research, and higher education.
-
 This repository documents practical cybersecurity laboratories, technical assessments, research projects, and educational resources developed in authorized environments for learning, research, and professional development.
 
 ---
-
 # 👨‍💻 Professional Profile
 
 My professional experience combines cybersecurity, higher education, and applied research.
 
 Throughout my academic and professional career, I have:
-
 - Designed and implemented approximately 20 hands-on cybersecurity laboratories.
 - Trained approximately 2,000 university students in Information Technology and Cybersecurity.
 - Delivered cybersecurity training to more than 30 professionals through continuing education programs.
@@ -21,7 +18,6 @@ Throughout my academic and professional career, I have:
 - Developed practical learning environments using industry-recognized cybersecurity tools.
 
 ---
-
 # 🛡 Technical Areas
 
 ## Cybersecurity
@@ -34,6 +30,8 @@ Throughout my academic and professional career, I have:
 - Risk Management
 - Secure Software Development (Secure SDLC)
 - Digital Forensics
+- Security Monitoring and Detection (SIEM)
+- Cloud Security (AWS)
 - OWASP Top 10
 - ISO/IEC 27001
 - NIST Cybersecurity Framework
@@ -61,14 +59,17 @@ Throughout my academic and professional career, I have:
 - Nikto
 - Autopsy
 - Wazuh
+- Amazon GuardDuty
+- AWS CloudTrail
+- AWS IAM
+- Amazon S3
 - pfSense
 - BitLocker
 
 ---
-
 # 🧪 Laboratory Environment
 
-All practical exercises are developed in isolated and authorized virtual environments.
+All practical exercises are developed in isolated and authorized virtual environments or in controlled cloud environments.
 
 Current laboratory infrastructure includes:
 
@@ -80,28 +81,31 @@ Current laboratory infrastructure includes:
 - DVWA (Damn Vulnerable Web Application)
 - OWASP Juice Shop
 - Windows 10 / Windows 11
+- Windows Server / Active Directory
+- Wazuh SIEM
+- AWS IAM, Amazon S3, AWS CloudTrail, and Amazon GuardDuty
 
 All activities are performed exclusively for educational, research, and professional development purposes.
 
 ---
-
 # 📂 Portfolio Structure
 
 | Section | Description | Status |
 |----------|-------------|--------|
-| 01 - Lab Environment | Laboratory configuration and setup | ✅ |
-| 02 - Reconnaissance | Host discovery and network scanning | ✅ |
-| 03 - Enumeration | Service and resource enumeration | ✅ |
-| 04 - Vulnerability Assessment | Vulnerability identification and analysis | ✅ |
-| 05 - Web Application Security | Security testing of web applications | ✅ |
-| 06 - Vulnerability Exploitation | Vulnerability exploitation and controlled penetration testing | ✅ |
-| 07 - Active Directory Security | Windows Server security laboratories | ✅ |
-| 08 - Cloud Security | AWS and cloud security laboratories | ✅ |
-| 09 - Security Awareness | Awareness and cybersecurity education | ✅ |
-| 10 - Research | Scientific publications and applied research | ✅ |
+| [01 - Lab Environment](labs/01-lab-environment/) | Laboratory configuration and setup | ✅ |
+| [02 - Reconnaissance](labs/02-reconnaissance/) | Host discovery and network scanning | ✅ |
+| [03 - Enumeration](labs/03-enumeration/) | Service and resource enumeration | ✅ |
+| [04 - Vulnerability Assessment](labs/04-vulnerability-assessment/) | Vulnerability identification and analysis | ✅ |
+| [05 - Web Application Security](labs/05-web-application-security/) | Security testing of web applications | ✅ |
+| [06 - Vulnerability Exploitation](labs/06-vulnerability-exploitation/) | Vulnerability exploitation and controlled penetration testing | ✅ |
+| [07 - Active Directory Security](labs/07-active-directory-security/) | Windows Server and Active Directory security laboratories | ✅ |
+| [08 - Cloud Security](labs/08-cloud-security/) | Earlier cloud security exercises | ✅ |
+| [09 - Security Awareness](labs/09-security-awareness/) | Awareness and cybersecurity education | ✅ |
+| [10 - Research](labs/10-research/) | Scientific publications and applied research | ✅ |
+| [11 - Wazuh SIEM and Detection](labs/11-wazuh-siem/) | Security monitoring, Windows endpoint telemetry, security configuration assessment, and MITRE ATT&CK mapping | ✅ |
+| [12 - AWS Cloud Security](labs/12-aws-cloud-security/) | AWS security baseline: IAM, root-account MFA, S3 public-access blocking and encryption, CloudTrail event review, GuardDuty findings, and cost awareness | ✅ |
 
 ---
-
 # 📖 Featured Scientific Publication
 
 **Implementation of a Roadmap for Securing Information in Online Application Development**
@@ -114,7 +118,6 @@ Research areas:
 - Risk Management
 
 ---
-
 # 🎯 Portfolio Objectives
 
 The purpose of this repository is to:
@@ -127,7 +130,6 @@ The purpose of this repository is to:
 - Continuously expand technical knowledge through practical projects.
 
 ---
-
 # 🚀 Current Learning Roadmap
 
 I am currently expanding my knowledge in:
@@ -141,7 +143,6 @@ I am currently expanding my knowledge in:
 - Blue Team Operations
 
 ---
-
 # 🤝 Professional Values
 
 I believe cybersecurity is built on three fundamental principles:
@@ -153,7 +154,6 @@ I believe cybersecurity is built on three fundamental principles:
 Every laboratory included in this repository is intended to strengthen technical skills while promoting ethical and responsible cybersecurity practices.
 
 ---
-
 # 📫 Contact
 
 **LinkedIn**
